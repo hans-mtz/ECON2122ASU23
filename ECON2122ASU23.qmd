@@ -116,7 +116,7 @@ Note that R uses the `c()` function to combine elements into vectors, whereas Py
 
 :::
 
-These two questions are ok, but they provide intuition on the pdf and cdf, which they will have to use in the next questions. They would have to understand these concepts. The objective is not to test their graphing skills.
+These two questions are ok, but these questions provide intuition on the pdf and cdf, which students will have to use in the following questions. Students would have to understand these concepts. The objective is not to test their graphing skills.
 
 Moving to question c is where it gets **interesting.**
 
@@ -197,13 +197,13 @@ cat("The probability that at least one of two random packages contains at least 
 
 ## ChatGPT
 
-In this code, we first define the possible weights of packages as a vector named weights. We then create a matrix of all possible pairs of packages using the expand.grid() function. 
+In this code, we first define the possible weights of packages as a vector named weights. We then create a matrix of all possible pairs of packages using the `expand.grid()` function. 
 
 
-Next, we calculate the probability that at least one package has at least 47 pounds by counting the number of pairs with at least one 47 or higher weight, and dividing by the total number of pairs. We use the sum() function to count the number of pairs with at least one weight of 47 or higher, and divide by the total number of pairs (which is simply the length of the pairs matrix).
+Next, we calculate the probability that at least one package has at least 47 pounds by counting the number of pairs with at least one 47 or higher weight, and dividing by the total number of pairs. We use the `sum()` function to count the number of pairs with at least one weight of 47 or higher, and divide by the total number of pairs (which is simply the length of the pairs matrix).
 
 
-Finally, we use the cat() function to output the result as a sentence. The result is the probability of at least one of two random packages containing at least 47 pounds.
+Finally, we use the `cat()` function to output the result as a sentence. The result is the probability of at least one of two random packages containing at least 47 pounds.
 
 :::
 
