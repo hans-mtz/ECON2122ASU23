@@ -1,4 +1,4 @@
-## ECON2122A Summer 2023
+# ECON2122A Summer 2023
 
 This repo will contain proposed solutions to assignments.
 
